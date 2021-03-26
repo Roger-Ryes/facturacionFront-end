@@ -1,0 +1,159 @@
+{
+	"filename": "C:\\Users\\roger_000\\Downloads\\CapacitacionCMC\\Covert_sp_Y_BLI\\SP_a_convertir\\SP_CLIENTE_FACTURACION\\sp_cliente_gd.sql",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_cliente_gd",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_cl_cedula"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_cl_nombre"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_cl_apellido"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_cl_telefono"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_cl_direccion"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_cl_estado"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "01ec4d42-c2d9-4d10-bc93-fa53479f1e21",
+				"columns": [
+					"cedula",
+					"nombre",
+					"apellido",
+					"telefono",
+					"direccion",
+					"estado"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\u0027cedula\u0027 \t= cl_cedula,\r\n   \t\u0027nombre\u0027 \t= cl_nombre,\r\n   \t\u0027apellido\u0027 \t= cl_apellido,\r\n   \t\u0027telefono\u0027 \t= cl_telefono,\r\n   \t\u0027direccion\u0027\t= cl_direccion,\r\n   \t\u0027estado\u0027\t= cl_estado\r\n\tfrom"
+			},
+			{
+				"_idQuery": "1a20a210-0ae9-4c8e-9c99-0963ece15195",
+				"columns": [
+					"cedula",
+					"nombre",
+					"apellido",
+					"telefono",
+					"direccion",
+					"estado"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\u0027cedula\u0027 \t= cl_cedula,\r\n   \t\u0027nombre\u0027 \t= cl_nombre,\r\n   \t\u0027apellido\u0027 \t= cl_apellido,\r\n   \t\u0027telefono\u0027 \t= cl_telefono,\r\n   \t\u0027direccion\u0027\t= cl_direccion,\r\n   \t\u0027estado\u0027\t= cl_estado\r\n\tfrom"
+			},
+			{
+				"_idQuery": "095aeb9e-b06a-4399-b5e4-bd9ace039800",
+				"columns": [
+					"cedula",
+					"nombre",
+					"apellido",
+					"telefono",
+					"direccion",
+					"estado"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\u0027cedula\u0027 \t= cl_cedula,\r\n   \t\u0027nombre\u0027 \t= cl_nombre,\r\n   \t\u0027apellido\u0027 \t= cl_apellido,\r\n   \t\u0027telefono\u0027 \t= cl_telefono,\r\n   \t\u0027direccion\u0027\t= cl_direccion,\r\n   \t\u0027estado\u0027\t= cl_estado\r\n\tfrom"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_secuencia_inc"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}
