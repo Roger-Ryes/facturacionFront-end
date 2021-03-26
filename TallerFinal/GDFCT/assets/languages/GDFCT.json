@@ -1,10 +1,15 @@
 {
     "GDFCT": {
         "LBL": {
-
+			"LBL_GDFCT_ACTUALIZA_60507": "Actualizar",
+			"LBL_GDFCT_CDIGOSWGW_47405": "C\u00f3digo",
+			"LBL_GDFCT_DATOSDETU_17900": "Datos del producto",
+			"LBL_GDFCT_GUARDARAR_10305": "Guardar",
+			"LBL_GDFCT_NOMBREZNC_19555": "Nombre",
+			"LBL_GDFCT_PRECIORBI_44823": "Precio",
+			"LBL_GDFCT_STOCKXPFX_53869": "Stock"
         },
         "MSG": {
-
         }
     }
 }

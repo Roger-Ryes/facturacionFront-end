@@ -1,6 +1,78 @@
 {
-	"Entities": {},
-	"Forms": {},
-	"CompositeForms": {},
-	"Queries": {}
+	"CompositeForms": {
+	},
+	"Entities": {
+		"EN_PRODUCTSO_719": {
+			"labels": [
+			]
+		}
+	},
+	"Forms": {
+		"T_GDFCTBHLBSJSG_461": {
+			"blis": [
+			],
+			"entities": {
+				"EN_PRODUCTSO_719": [
+					"AT10_STOCKGIR719",
+					"AT27_NOMBREGX719",
+					"AT30_CODIGOYW719",
+					"AT35_PRECIORV719"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_PRODOSTU_JY78": [
+					"QM_PRODO88T77112_01",
+					"QM_PRODOU7J8T679_02",
+					"QM_PRODOY7J8J921_04",
+					"QM_PRODOYU7YS516_03"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_GDFCTDZKYFZIL_451": {
+			"blis": [
+			],
+			"entities": {
+				"EN_PRODUCTSO_719": [
+					"AT10_STOCKGIR719",
+					"AT27_NOMBREGX719",
+					"AT30_CODIGOYW719",
+					"AT35_PRECIORV719"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_GDFCT_ACTUALIZA_60507",
+				"LBL_GDFCT_CDIGOSWGW_47405",
+				"LBL_GDFCT_GUARDARAR_10305",
+				"LBL_GDFCT_NOMBREZNC_19555",
+				"LBL_GDFCT_PRECIORBI_44823",
+				"LBL_GDFCT_STOCKXPFX_53869"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+		"Q_PRODOSTU_JY78": {
+			"labels": [
+			]
+		}
+	}
 }

@@ -1,0 +1,32 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_PRODOSTU_JY78",
+		"controlName": "ProductosQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../GDFCT/FCTRS/queries/Q_PRODOSTU_JY78.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Productos",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_LL78_JDE11",
+		"controlName": "QV_LL78_JDE11",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowDeleting",
+				"executionType": 3
+			}
+		],
+		"entityName": "Productos",
+		"eventsType": "queryViewEventType"
+	}
+]

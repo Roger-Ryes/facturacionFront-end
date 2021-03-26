@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_PRODUCTSO_719",
+			"isContextEntity": null,
+			"moduleId": "GDFCT",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}
