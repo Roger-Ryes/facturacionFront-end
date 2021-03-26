@@ -1,0 +1,24 @@
+{
+	"Entities": {
+		"EN_PRODUCTSO_719": {
+			"name": "Productos"
+		}
+	},
+	"FCTRS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_GDFCTBHLBSJSG_461": {
+				"name": "ListaProductosForm"
+			},
+			"T_GDFCTDZKYFZIL_451": {
+				"name": "ProductoForm"
+			}
+		},
+		"Queries": {
+			"Q_PRODOSTU_JY78": {
+				"name": "ProductosQuery"
+			}
+		}
+	}
+}

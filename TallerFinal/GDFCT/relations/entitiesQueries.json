@@ -1,0 +1,9 @@
+{
+	"EN_PRODUCTSO_719": {
+		"queries": {
+			"Q_PRODOSTU_JY78": {
+				"$ref": "../FCTRS/queries/Q_PRODOSTU_JY78.json#"
+			}
+		}
+	}
+}

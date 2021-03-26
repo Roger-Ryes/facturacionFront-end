@@ -1,0 +1,362 @@
+{
+	"autoCrudStr": "F",
+	"cobisPattern": "None",
+	"cobisPatternId": 0,
+	"commands": [
+	],
+	"customEvents": [
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"graphicSupportStr": "F",
+	"header": null,
+	"id": {
+		"moduleId": "GDFCT",
+		"subModuleId": "FCTRS",
+		"taskId": "T_GDFCTDZKYFZIL_451",
+		"version": "1.0.0"
+	},
+	"isCustomized": false,
+	"isImported": false,
+	"mainViewContainerId": "VC_PRODUCTOYU_303451",
+	"modeEnabled": 4095,
+	"name": {
+		"$ref": "../../../../GDFCT/relations/componentKeys.json#/FCTRS/Forms/T_GDFCTDZKYFZIL_451/name"
+	},
+	"setFocus": false,
+	"tempSaveStr": "F",
+	"viewContainers": [
+		{
+			"breadcrumbs": "Automatic",
+			"collapsedStr": "F",
+			"colSpan": 1,
+			"columnsNum": 1,
+			"componentStyle": null,
+			"customEvents": [
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"id": {
+				"moduleId": "GDFCT",
+				"subModuleId": "FCTRS",
+				"taskId": "T_GDFCTDZKYFZIL_451",
+				"taskVersion": "1.0.0",
+				"viewContainerId": "VC_PRODUCTOYU_303451"
+			},
+			"isCustomized": false,
+			"layoutType": "Group",
+			"name": "ProductoForm",
+			"options": 0,
+			"responsiveLayouts": null,
+			"responsivity": false,
+			"style": null,
+			"view": {
+				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../GDFCT/entities/EN_PRODUCTSO_719.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_PRODUCTOOO_606369",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1573",
+						"order": 1,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../GDFCT/entities/EN_PRODUCTSO_719.json#/attributes/AT30_CODIGOYW719"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_CDIGOSWGW_47405"
+									},
+									"labelId": "LBL_GDFCT_CDIGOSWGW_47405",
+									"moduleId": "GDFCT"
+								},
+								"maxRecords": null,
+								"name": "codigo",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_CODIGOSNATEDXHE_333369",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../GDFCT/entities/EN_PRODUCTSO_719.json#/attributes/AT27_NOMBREGX719"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_NOMBREZNC_19555"
+									},
+									"labelId": "LBL_GDFCT_NOMBREZNC_19555",
+									"moduleId": "GDFCT"
+								},
+								"maxRecords": null,
+								"name": "nombre",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_NOMBREXQXTPKIOR_886369",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../GDFCT/entities/EN_PRODUCTSO_719.json#/attributes/AT35_PRECIORV719"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_PRECIORBI_44823"
+									},
+									"labelId": "LBL_GDFCT_PRECIORBI_44823",
+									"moduleId": "GDFCT"
+								},
+								"maxRecords": null,
+								"name": "precio",
+								"options": 0,
+								"order": 4,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_PRECIOQCDTOBMOP_624369",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../GDFCT/entities/EN_PRODUCTSO_719.json#/attributes/AT10_STOCKGIR719"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_STOCKXPFX_53869"
+									},
+									"labelId": "LBL_GDFCT_STOCKXPFX_53869",
+									"moduleId": "GDFCT"
+								},
+								"maxRecords": null,
+								"name": "stock",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_STOCKLKTENOORLJ_840369",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_GUARDARAR_10305"
+									},
+									"labelId": "LBL_GDFCT_GUARDARAR_10305",
+									"moduleId": "GDFCT"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONDJJWMNY_435369",
+								"options": 0,
+								"order": 5,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONDJJWMNY_435369",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_ACTUALIZA_60507"
+									},
+									"labelId": "LBL_GDFCT_ACTUALIZA_60507",
+									"moduleId": "GDFCT"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONXXWLWDV_921369",
+								"options": 0,
+								"order": 6,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONXXWLWDV_921369",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					}
+				],
+				"id": {
+					"version": "1.0.0",
+					"viewId": "VW_PRODUCTORU_369"
+				},
+				"metadataVersion": "7.2.0.2024 BETA",
+				"modules": [
+					{
+						"moduleId": "GDFCT"
+					}
+				],
+				"name": "View of ProductoForm"
+			}
+		}
+	]
+}
