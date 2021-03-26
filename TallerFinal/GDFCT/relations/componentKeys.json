@@ -1,5 +1,8 @@
 {
 	"Entities": {
+		"EN_CLIENTEQJ_451": {
+			"name": "Cliente"
+		},
 		"EN_PRODUCTSO_719": {
 			"name": "Productos"
 		}
@@ -8,14 +11,23 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_GDFCTAZWFREVH_668": {
+				"name": "ClienteForm"
+			},
 			"T_GDFCTBHLBSJSG_461": {
 				"name": "ListaProductosForm"
 			},
 			"T_GDFCTDZKYFZIL_451": {
 				"name": "ProductoForm"
+			},
+			"T_GDFCTIMMWFXOE_126": {
+				"name": "ListaClientesForm"
 			}
 		},
 		"Queries": {
+			"Q_CLIETTTT_KW86": {
+				"name": "ClienteQuery"
+			},
 			"Q_PRODOSTU_JY78": {
 				"name": "ProductosQuery"
 			}

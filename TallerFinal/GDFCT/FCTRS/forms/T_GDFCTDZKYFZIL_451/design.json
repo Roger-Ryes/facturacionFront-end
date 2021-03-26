@@ -81,6 +81,99 @@
 							{
 								"aggregate": null,
 								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 2,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "Spacer1774",
+								"options": 0,
+								"order": 2,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "Spacer"
+								},
+								"visible": 4095,
+								"visualAttributeId": "Spacer1774",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "Spacer2437",
+								"options": 0,
+								"order": 7,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "Spacer"
+								},
+								"visible": 4095,
+								"visualAttributeId": "Spacer2437",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "Spacer2538",
+								"options": 0,
+								"order": 4,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "Spacer"
+								},
+								"visible": 4095,
+								"visualAttributeId": "Spacer2538",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
 								"attribute": {
 									"$ref": "../../../../GDFCT/entities/EN_PRODUCTSO_719.json#/attributes/AT30_CODIGOYW719"
 								},
@@ -131,7 +224,7 @@
 								},
 								"attributeValidations": [
 								],
-								"colSpan": 1,
+								"colSpan": 2,
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
@@ -152,7 +245,7 @@
 								"maxRecords": null,
 								"name": "nombre",
 								"options": 0,
-								"order": 2,
+								"order": 3,
 								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
@@ -197,7 +290,7 @@
 								"maxRecords": null,
 								"name": "precio",
 								"options": 0,
-								"order": 4,
+								"order": 6,
 								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
@@ -242,7 +335,7 @@
 								"maxRecords": null,
 								"name": "stock",
 								"options": 0,
-								"order": 3,
+								"order": 5,
 								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
@@ -284,7 +377,7 @@
 								"maxRecords": null,
 								"name": "VA_VABUTTONDJJWMNY_435369",
 								"options": 0,
-								"order": 5,
+								"order": 8,
 								"queryModule": null,
 								"queryVersion": null,
 								"responsiveLayouts": null,
@@ -326,7 +419,7 @@
 								"maxRecords": null,
 								"name": "VA_VABUTTONXXWLWDV_921369",
 								"options": 0,
-								"order": 6,
+								"order": 9,
 								"queryModule": null,
 								"queryVersion": null,
 								"responsiveLayouts": null,
