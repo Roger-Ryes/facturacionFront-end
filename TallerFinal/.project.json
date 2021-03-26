@@ -1,0 +1,19 @@
+{
+	"culture": "culture",
+	"metadataVersion": "7.2.0.2024 BETA",
+	"moduleId": "GDFCT",
+	"modules": [
+		{
+			"moduleId": "GDFCT",
+			"moduleName": "GDFacturacion",
+			"subModules": [
+				{
+					"subModuleId": "FCTRS",
+					"subModuleName": "Facturas"
+				}
+			]
+		}
+	],
+	"projectName": "TallerFinal",
+	"subModuleId": "FCTRS"
+}
