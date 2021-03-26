@@ -19,9 +19,15 @@
 			},
 			"T_GDFCTDZKYFZIL_451": {
 				"name": "ProductoForm"
+			},
+			"T_GDFCTIMMWFXOE_126": {
+				"name": "ListaClientesForm"
 			}
 		},
 		"Queries": {
+			"Q_CLIETTTT_KW86": {
+				"name": "ClienteQuery"
+			},
 			"Q_PRODOSTU_JY78": {
 				"name": "ProductosQuery"
 			}

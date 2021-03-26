@@ -1,4 +1,11 @@
 {
+	"EN_CLIENTEQJ_451": {
+		"queries": {
+			"Q_CLIETTTT_KW86": {
+				"$ref": "../FCTRS/queries/Q_CLIETTTT_KW86.json#"
+			}
+		}
+	},
 	"EN_PRODUCTSO_719": {
 		"queries": {
 			"Q_PRODOSTU_JY78": {

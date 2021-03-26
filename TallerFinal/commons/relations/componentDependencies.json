@@ -17,6 +17,11 @@
 			],
 			"entities": {
 				"EN_CLIENTEQJ_451": [
+					"AT13_NOMBREOI451",
+					"AT18_APELLIOO451",
+					"AT20_DIRECCIN451",
+					"AT46_CEDULABS451",
+					"AT64_TELEFONN451"
 				]
 			},
 			"externalEntities": {
@@ -26,6 +31,13 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_GDFCT_ACTUALIZA_60507",
+				"LBL_GDFCT_APELLIDOO_22858",
+				"LBL_GDFCT_CEDULAOMD_19312",
+				"LBL_GDFCT_DIRECCINN_31431",
+				"LBL_GDFCT_GUARDARAR_10305",
+				"LBL_GDFCT_NOMBREZNC_19555",
+				"LBL_GDFCT_TELEFONOO_92702"
 			],
 			"queries": {
 			},
@@ -91,9 +103,45 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_GDFCTIMMWFXOE_126": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTEQJ_451": [
+					"AT13_NOMBREOI451",
+					"AT18_APELLIOO451",
+					"AT20_DIRECCIN451",
+					"AT46_CEDULABS451",
+					"AT64_TELEFONN451"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_CLIETTTT_KW86": [
+					"QM_CLIET8WT6W120_02",
+					"QM_CLIETT6T8T805_05",
+					"QM_CLIETTW6W8113_03",
+					"QM_CLIETTWT8K743_04",
+					"QM_CLIETWK6WW592_01"
+				]
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {
+		"Q_CLIETTTT_KW86": {
+			"labels": [
+			]
+		},
 		"Q_PRODOSTU_JY78": {
 			"labels": [
 			]
