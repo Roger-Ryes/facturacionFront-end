@@ -1,0 +1,30 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONFMSMSFU_465220",
+		"controlName": "VA_VABUTTONFMSMSFU_465220",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONPKAEMEM_461220",
+		"controlName": "VA_VABUTTONPKAEMEM_461220",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "visualAttributeEventType"
+	}
+]
