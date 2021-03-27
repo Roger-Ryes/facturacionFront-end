@@ -3,6 +3,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PRODUCTSO_719",
+						"moduleId": "GDFCT",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI1251_bli_listarproductos",
+			"nameBli": "BLI_ListarProductos"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 					{
 						"entityId": "EN_CLIENTEQJ_451",
 						"moduleId": "GDFCT",

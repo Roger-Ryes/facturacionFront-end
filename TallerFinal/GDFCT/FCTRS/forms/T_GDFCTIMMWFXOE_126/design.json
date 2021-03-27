@@ -140,6 +140,8 @@
 							"query": {
 								"$ref": "../../../../GDFCT/FCTRS/queries/Q_CLIETTTT_KW86.json#"
 							},
+							"queryId": "Q_CLIETTTT_KW86",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 								{
 									"action": null,
@@ -152,6 +154,12 @@
 									"customizationLayerDescription": "ECU",
 									"enabled": "T",
 									"eventActions": [
+										{
+											"actionArgs": [
+											],
+											"actionId": "CUSTOM",
+											"actionType": "CUSTOM"
+										}
 									],
 									"executionType": 3,
 									"filter": null,
@@ -256,6 +264,13 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_TELFONOVF_77148"
+									},
+									"labelId": "LBL_GDFCT_TELFONOVF_77148",
+									"moduleId": "GDFCT"
+								},
 								"maxRecords": null,
 								"name": "telefono",
 								"options": 0,
@@ -293,6 +308,13 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_APELLIDOO_22858"
+									},
+									"labelId": "LBL_GDFCT_APELLIDOO_22858",
+									"moduleId": "GDFCT"
+								},
 								"maxRecords": null,
 								"name": "apellido",
 								"options": 0,
@@ -330,6 +352,13 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_NOMBREZNC_19555"
+									},
+									"labelId": "LBL_GDFCT_NOMBREZNC_19555",
+									"moduleId": "GDFCT"
+								},
 								"maxRecords": null,
 								"name": "nombre",
 								"options": 0,
@@ -367,6 +396,13 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_DIRECCINN_79406"
+									},
+									"labelId": "LBL_GDFCT_DIRECCINN_79406",
+									"moduleId": "GDFCT"
+								},
 								"maxRecords": null,
 								"name": "direccion",
 								"options": 0,
@@ -404,6 +440,13 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_CDULARCRY_30578"
+									},
+									"labelId": "LBL_GDFCT_CDULARCRY_30578",
+									"moduleId": "GDFCT"
+								},
 								"maxRecords": null,
 								"name": "cedula",
 								"options": 0,

@@ -1,2 +1,64 @@
 {
+	"APP_FACTURACONN_123": {
+		"externalModules": {
+		},
+		"forms": {
+			"GDFCT": [
+				{
+					"generated": 4,
+					"moduleId": "GDFCT",
+					"moduleName": "GDFacturacion",
+					"name": "ClienteForm",
+					"subModuleId": "FCTRS",
+					"subModuleName": "Facturas",
+					"taskId": "T_GDFCTAZWFREVH_668",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "GDFCT",
+					"moduleName": "GDFacturacion",
+					"name": "ListaProductosForm",
+					"subModuleId": "FCTRS",
+					"subModuleName": "Facturas",
+					"taskId": "T_GDFCTBHLBSJSG_461",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "GDFCT",
+					"moduleName": "GDFacturacion",
+					"name": "ProductoForm",
+					"subModuleId": "FCTRS",
+					"subModuleName": "Facturas",
+					"taskId": "T_GDFCTDZKYFZIL_451",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "GDFCT",
+					"moduleName": "GDFacturacion",
+					"name": "ListaClientesForm",
+					"subModuleId": "FCTRS",
+					"subModuleName": "Facturas",
+					"taskId": "T_GDFCTIMMWFXOE_126",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "Facturacion",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_FACTURACONN_123",
+		"mainPortletTaskId": "T_GDFCTAZWFREVH_668",
+		"modules": [
+			"GDFCT"
+		],
+		"name": "Facturacion"
+	}
 }

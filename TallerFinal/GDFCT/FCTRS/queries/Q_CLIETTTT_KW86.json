@@ -24,12 +24,11 @@
 	],
 	"customizationLayer": 0,
 	"customizationLayerDescription": "ECU",
-	"hasEvents": true,
 	"id": {
 		"queryId": "Q_CLIETTTT_KW86",
 		"version": "1.0.0"
 	},
-	"isAutomatic": true,
+	"isAutomatic": false,
 	"isImported": false,
 	"mainEntityId": "EN_CLIENTEQJ_451",
 	"mainEntityModule": "GDFCT",
@@ -46,12 +45,12 @@
 			"attribute": {
 				"$ref": "../../../GDFCT/entities/EN_CLIENTEQJ_451.json#/attributes/AT13_NOMBREOI451"
 			},
-			"attributeQuery": "nombre",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
 			"order": 2,
 			"orderBy": null,
@@ -67,12 +66,12 @@
 			"attribute": {
 				"$ref": "../../../GDFCT/entities/EN_CLIENTEQJ_451.json#/attributes/AT20_DIRECCIN451"
 			},
-			"attributeQuery": "direccion",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
 			"order": 5,
 			"orderBy": null,
@@ -88,12 +87,12 @@
 			"attribute": {
 				"$ref": "../../../GDFCT/entities/EN_CLIENTEQJ_451.json#/attributes/AT18_APELLIOO451"
 			},
-			"attributeQuery": "apellido",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
 			"order": 3,
 			"orderBy": null,
@@ -109,12 +108,12 @@
 			"attribute": {
 				"$ref": "../../../GDFCT/entities/EN_CLIENTEQJ_451.json#/attributes/AT64_TELEFONN451"
 			},
-			"attributeQuery": "telefono",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
 			"order": 4,
 			"orderBy": null,
@@ -130,12 +129,12 @@
 			"attribute": {
 				"$ref": "../../../GDFCT/entities/EN_CLIENTEQJ_451.json#/attributes/AT46_CEDULABS451"
 			},
-			"attributeQuery": "cedula",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
 			"order": 1,
 			"orderBy": null,
