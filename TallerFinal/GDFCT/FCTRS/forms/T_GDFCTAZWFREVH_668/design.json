@@ -206,9 +206,9 @@
 								"isCustomized": false,
 								"label": {
 									"defaultValue": {
-										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_CEDULAOMD_19312"
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_CDULARCRY_30578"
 									},
-									"labelId": "LBL_GDFCT_CEDULAOMD_19312",
+									"labelId": "LBL_GDFCT_CDULARCRY_30578",
 									"moduleId": "GDFCT"
 								},
 								"maxRecords": null,
@@ -251,9 +251,9 @@
 								"isCustomized": false,
 								"label": {
 									"defaultValue": {
-										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_DIRECCINN_31431"
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_DIRECCINN_79406"
 									},
-									"labelId": "LBL_GDFCT_DIRECCINN_31431",
+									"labelId": "LBL_GDFCT_DIRECCINN_79406",
 									"moduleId": "GDFCT"
 								},
 								"maxRecords": null,
@@ -341,9 +341,9 @@
 								"isCustomized": false,
 								"label": {
 									"defaultValue": {
-										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_TELEFONOO_92702"
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_TELFONOVF_77148"
 									},
-									"labelId": "LBL_GDFCT_TELEFONOO_92702",
+									"labelId": "LBL_GDFCT_TELFONOVF_77148",
 									"moduleId": "GDFCT"
 								},
 								"maxRecords": null,
