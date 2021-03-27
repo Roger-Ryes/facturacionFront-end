@@ -1,2 +1,56 @@
 {
+	"APP_FACTURACINI_169": {
+		"externalModules": {
+		},
+		"forms": {
+			"GDFCT": [
+				{
+					"generated": 0,
+					"moduleId": "GDFCT",
+					"name": "ClienteForm",
+					"subModuleId": "FCTRS",
+					"taskId": "T_GDFCTAZWFREVH_668",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "GDFCT",
+					"name": "ListaProductosForm",
+					"subModuleId": "FCTRS",
+					"taskId": "T_GDFCTBHLBSJSG_461",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "GDFCT",
+					"name": "ProductoForm",
+					"subModuleId": "FCTRS",
+					"taskId": "T_GDFCTDZKYFZIL_451",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "GDFCT",
+					"name": "ListaClientesForm",
+					"subModuleId": "FCTRS",
+					"taskId": "T_GDFCTIMMWFXOE_126",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "Facturacion",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_FACTURACINI_169",
+		"mainPortletTaskId": "T_GDFCTAZWFREVH_668",
+		"modules": [
+			"GDFCT"
+		],
+		"name": "Facturacion"
+	}
 }
