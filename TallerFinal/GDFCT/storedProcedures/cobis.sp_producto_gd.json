@@ -93,7 +93,7 @@
 		],
 		"queries": [
 			{
-				"_idQuery": "d77180ea-8d79-4e80-82c2-c3a74c3a3f0b",
+				"_idQuery": "6eed14cd-c3d2-41c4-9bf4-53bb7699bb54",
 				"columns": [
 					"codigo",
 					"nombre",
@@ -104,7 +104,7 @@
 				"queryText": "select\r\n   \t\u0027codigo\u0027 \t= pr_codigo,\r\n   \t\u0027nombre\u0027 \t= pr_nombre,\r\n   \t\u0027stock\u0027 \t= pr_stock,\r\n   \t\u0027precio\u0027 \t= pr_precio\r\n\tfrom"
 			},
 			{
-				"_idQuery": "2f2360bd-c753-4d0d-88bc-6d7301ee81c6",
+				"_idQuery": "41f4f4af-174b-4483-87f9-5065c9eef916",
 				"columns": [
 					"codigo",
 					"nombre",

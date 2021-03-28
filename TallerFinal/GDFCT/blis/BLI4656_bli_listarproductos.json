@@ -31,12 +31,12 @@
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI1251_bli_listarproductos",
+	"patternId": "BLI4656_bli_listarproductos",
 	"patternName": "BLI_ListarProductos",
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "2f2360bd-c753-4d0d-88bc-6d7301ee81c6",
+			"_idQuery": "41f4f4af-174b-4483-87f9-5065c9eef916",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": false,
@@ -46,7 +46,7 @@
 	],
 	"resultSets": [
 		{
-			"_idQuery": "2f2360bd-c753-4d0d-88bc-6d7301ee81c6",
+			"_idQuery": "41f4f4af-174b-4483-87f9-5065c9eef916",
 			"columns": [
 				{
 					"attributeId": "AT30_CODIGOYW719",
