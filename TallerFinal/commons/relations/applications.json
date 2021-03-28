@@ -35,7 +35,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "GDFCT",
 					"moduleName": "GDFacturacion",
 					"name": "ListaClientesForm",
