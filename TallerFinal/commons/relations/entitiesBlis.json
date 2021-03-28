@@ -37,6 +37,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEQJ_451",
+						"moduleId": "GDFCT",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI5074_bli_clientefactura_mostrar",
+			"nameBli": "BLI_ClienteFactura_Mostrar"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 					{
 						"entityId": "EN_CLIENTEQJ_451",
 						"moduleId": "GDFCT",
