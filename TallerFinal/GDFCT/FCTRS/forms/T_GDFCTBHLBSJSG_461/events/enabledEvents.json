@@ -23,10 +23,28 @@
 		"customEvents": [
 			{
 				"eventName": "rowDeleting",
-				"executionType": 3
+				"executionType": 7
 			}
 		],
 		"entityName": "Productos",
 		"eventsType": "queryViewEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_LISTAPROTD_272461",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 1
+			},
+			{
+				"eventName": "onCloseModal",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]

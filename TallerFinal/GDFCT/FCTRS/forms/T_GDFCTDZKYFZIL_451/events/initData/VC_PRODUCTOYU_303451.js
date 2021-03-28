@@ -8,7 +8,7 @@ task.initData.VC_PRODUCTOYU_303451 = function (entities, initDataEventArgs){
     initDataEventArgs.commons.execServer = false;
     let viewS = initDataEventArgs.commons.api.viewState;
     
-    if(entities.Producto.codigo==null || entities.Producto.codigo==""){
+    if(entities.Productos.codigo==""){
         //Hago visible el boton Guardar
         viewS.show('VA_VABUTTONDJJWMNY_435369');
         viewS.hide('VA_VABUTTONXXWLWDV_921369');

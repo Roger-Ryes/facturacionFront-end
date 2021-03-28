@@ -100,7 +100,7 @@
 					"stock",
 					"precio"
 				],
-				"editMode": true,
+				"editMode": false,
 				"queryText": "select\r\n   \t\u0027codigo\u0027 \t= pr_codigo,\r\n   \t\u0027nombre\u0027 \t= pr_nombre,\r\n   \t\u0027stock\u0027 \t= pr_stock,\r\n   \t\u0027precio\u0027 \t= pr_precio\r\n\tfrom"
 			},
 			{
@@ -111,7 +111,7 @@
 					"stock",
 					"precio"
 				],
-				"editMode": true,
+				"editMode": false,
 				"queryText": "select\r\n   \t\u0027codigo\u0027 \t= pr_codigo,\r\n   \t\u0027nombre\u0027 \t= pr_nombre,\r\n   \t\u0027stock\u0027 \t= pr_stock,\r\n   \t\u0027precio\u0027 \t= pr_precio\r\n\tfrom"
 			}
 		],
