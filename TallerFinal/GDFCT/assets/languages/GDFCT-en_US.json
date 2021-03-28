@@ -11,6 +11,9 @@
 			"LBL_GDFCT_NOMBREZNC_19555": "Name",
 			"LBL_GDFCT_PRECIORBI_44823": "Price",
 			"LBL_GDFCT_TELFONOVF_77148": "Telephone"
+		},
+		"MSG": {
+			"MSG_GDFCT_DEBELLERO_22169": "You must fill all the fields."
 		}
 	}
 }
