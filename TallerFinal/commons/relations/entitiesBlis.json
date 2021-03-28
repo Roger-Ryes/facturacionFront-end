@@ -37,19 +37,70 @@
 		{
 			"entities": {
 				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTSO_719",
+						"moduleId": "GDFCT",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI4292_bli_actualizarproducto",
+			"nameBli": "BLI_ActualizarProducto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTSO_719",
+						"moduleId": "GDFCT",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI4293_bli_insertarproduto",
+			"nameBli": "BLI_InsertarProduto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 				],
 				"outputEntity": [
 				],
 				"returnEntity": [
 					{
-						"entityId": "EN_CLIENTEQJ_451",
+						"entityId": "EN_PRODUCTSO_719",
 						"moduleId": "GDFCT",
 						"related": false
 					}
 				]
 			},
-			"idBli": "BLI5074_bli_clientefactura_mostrar",
-			"nameBli": "BLI_ClienteFactura_Mostrar"
+			"idBli": "BLI4656_bli_listarproductos",
+			"nameBli": "BLI_ListarProductos"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTSO_719",
+						"moduleId": "GDFCT",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI6155_bli_borrarproduucto",
+			"nameBli": "BLI_BorrarProduucto"
 		},
 		{
 			"entities": {

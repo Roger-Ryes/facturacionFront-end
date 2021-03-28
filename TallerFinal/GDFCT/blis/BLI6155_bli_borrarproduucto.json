@@ -1,0 +1,66 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_PRODUCTSO_719",
+			"module": {
+				"moduleId": "GDFCT",
+				"moduleName": "GDFacturacion"
+			},
+			"name": "Productos"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "7067164"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "D"
+		},
+		{
+			"attributeId": "AT30_CODIGOYW719",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_PRODUCTSO_719",
+			"format": "",
+			"name": "@i_pr_codigo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_BorrarProduucto",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI6155_bli_borrarproduucto",
+	"patternName": "BLI_BorrarProduucto",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_producto_gd",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

@@ -1,0 +1,137 @@
+{
+	"filename": "D:\\sps\\sp_producto_gd.sql",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_producto_gd",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_pr_codigo"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_pr_nombre"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_pr_stock"
+			},
+			{
+				"dataType": "money",
+				"direction": "in",
+				"name": "@i_pr_precio"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_pr_estado"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "6eed14cd-c3d2-41c4-9bf4-53bb7699bb54",
+				"columns": [
+					"codigo",
+					"nombre",
+					"stock",
+					"precio"
+				],
+				"editMode": false,
+				"queryText": "select\r\n   \t\u0027codigo\u0027 \t= pr_codigo,\r\n   \t\u0027nombre\u0027 \t= pr_nombre,\r\n   \t\u0027stock\u0027 \t= pr_stock,\r\n   \t\u0027precio\u0027 \t= pr_precio\r\n\tfrom"
+			},
+			{
+				"_idQuery": "41f4f4af-174b-4483-87f9-5065c9eef916",
+				"columns": [
+					"codigo",
+					"nombre",
+					"stock",
+					"precio"
+				],
+				"editMode": false,
+				"queryText": "select\r\n   \t\u0027codigo\u0027 \t= pr_codigo,\r\n   \t\u0027nombre\u0027 \t= pr_nombre,\r\n   \t\u0027stock\u0027 \t= pr_stock,\r\n   \t\u0027precio\u0027 \t= pr_precio\r\n\tfrom"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_secuencia_inc"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

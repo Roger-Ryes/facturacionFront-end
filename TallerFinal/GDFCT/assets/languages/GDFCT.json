@@ -4,16 +4,17 @@
 			"LBL_GDFCT_ACTUALIZA_60507": "Actualizar",
 			"LBL_GDFCT_APELLIDOO_22858": "Apellido",
 			"LBL_GDFCT_CDIGOSWGW_47405": "C\u00f3digo",
-			"LBL_GDFCT_CEDULAOMD_19312": "Cedula",
+			"LBL_GDFCT_CDULARCRY_30578": "C\u00e9dula",
 			"LBL_GDFCT_DATOSDETU_17900": "Datos del producto",
-			"LBL_GDFCT_DIRECCINN_31431": "Direccion",
+			"LBL_GDFCT_DIRECCINN_79406": "Direcci\u00f3n",
 			"LBL_GDFCT_GUARDARAR_10305": "Guardar",
 			"LBL_GDFCT_NOMBREZNC_19555": "Nombre",
 			"LBL_GDFCT_PRECIORBI_44823": "Precio",
 			"LBL_GDFCT_STOCKXPFX_53869": "Stock",
-			"LBL_GDFCT_TELEFONOO_92702": "Telefono"
+			"LBL_GDFCT_TELFONOVF_77148": "Tel\u00e9fono"
 		},
 		"MSG": {
+			"MSG_GDFCT_DEBELLERO_22169": "Debe llenar todos los campos."
 		}
 	}
 }

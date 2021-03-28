@@ -2,11 +2,18 @@
 	"GDFCT": {
 		"LBL": {
 			"LBL_GDFCT_ACTUALIZA_60507": "Update",
+			"LBL_GDFCT_APELLIDOO_22858": "Last name",
 			"LBL_GDFCT_CDIGOSWGW_47405": "Code",
+			"LBL_GDFCT_CDULARCRY_30578": "Identification card",
 			"LBL_GDFCT_DATOSDETU_17900": "Product dates",
+			"LBL_GDFCT_DIRECCINN_79406": "Address",
 			"LBL_GDFCT_GUARDARAR_10305": "Save",
 			"LBL_GDFCT_NOMBREZNC_19555": "Name",
-			"LBL_GDFCT_PRECIORBI_44823": "Price"
+			"LBL_GDFCT_PRECIORBI_44823": "Price",
+			"LBL_GDFCT_TELFONOVF_77148": "Telephone"
+		},
+		"MSG": {
+			"MSG_GDFCT_DEBELLERO_22169": "You must fill all the fields."
 		}
 	}
 }

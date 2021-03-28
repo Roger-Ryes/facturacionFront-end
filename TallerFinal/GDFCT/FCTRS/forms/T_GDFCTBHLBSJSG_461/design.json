@@ -33,6 +33,40 @@
 			"columnsNum": 1,
 			"componentStyle": null,
 			"customEvents": [
+				{
+					"customEventId": "CEVC_002T_GDFCTBHLBSJSG_461_172",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 7,
+						"description": "Inicializaci\u00f3n de datos de un ViewContainer, despues de este evento se realiza el segimiento de cambios en los datos",
+						"eventId": 2,
+						"name": "InitData"
+					}
+				},
+				{
+					"customEventId": "CEVC_501T_GDFCTBHLBSJSG_461_715",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 7,
+						"description": "Evento que actua como listener cuando se cierra ventanas modales.",
+						"eventId": 501,
+						"name": "onCloseModal"
+					}
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -122,6 +156,8 @@
 							"query": {
 								"$ref": "../../../../GDFCT/FCTRS/queries/Q_PRODOSTU_JY78.json#"
 							},
+							"queryId": "Q_PRODOSTU_JY78",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 								{
 									"action": null,
@@ -134,8 +170,14 @@
 									"customizationLayerDescription": "ECU",
 									"enabled": "T",
 									"eventActions": [
+										{
+											"actionArgs": [
+											],
+											"actionId": "CUSTOM",
+											"actionType": "CUSTOM"
+										}
 									],
-									"executionType": 3,
+									"executionType": 7,
 									"filter": null,
 									"isCustomized": false,
 									"name": "RowDeleting",
@@ -199,6 +241,13 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
+								"labelToolTip": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_PRECIORBI_44823"
+									},
+									"labelId": "LBL_GDFCT_PRECIORBI_44823",
+									"moduleId": "GDFCT"
+								},
 								"maxRecords": null,
 								"name": "precio",
 								"options": 0,
@@ -236,6 +285,13 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_CDIGOSWGW_47405"
+									},
+									"labelId": "LBL_GDFCT_CDIGOSWGW_47405",
+									"moduleId": "GDFCT"
+								},
 								"maxRecords": null,
 								"name": "codigo",
 								"options": 0,
@@ -273,6 +329,13 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_STOCKXPFX_53869"
+									},
+									"labelId": "LBL_GDFCT_STOCKXPFX_53869",
+									"moduleId": "GDFCT"
+								},
 								"maxRecords": null,
 								"name": "stock",
 								"options": 0,
@@ -310,6 +373,13 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../GDFCT/assets/languages/GDFCT.json#/GDFCT/LBL/LBL_GDFCT_NOMBREZNC_19555"
+									},
+									"labelId": "LBL_GDFCT_NOMBREZNC_19555",
+									"moduleId": "GDFCT"
+								},
 								"maxRecords": null,
 								"name": "nombre",
 								"options": 0,

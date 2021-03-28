@@ -1,5 +1,5 @@
 {
-	"APP_FACTURACINI_169": {
+	"APP_FACTURACONN_123": {
 		"externalModules": {
 		},
 		"forms": {
@@ -54,7 +54,7 @@
 			"mode": "Development",
 			"type": "HTML5"
 		},
-		"id": "APP_FACTURACINI_169",
+		"id": "APP_FACTURACONN_123",
 		"mainPortletTaskId": "T_GDFCTAZWFREVH_668",
 		"modules": [
 			"GDFCT"
