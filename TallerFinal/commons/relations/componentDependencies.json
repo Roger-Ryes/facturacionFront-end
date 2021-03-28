@@ -6,6 +6,10 @@
 			"labels": [
 			]
 		},
+		"EN_FACTURATD_698": {
+			"labels": [
+			]
+		},
 		"EN_PRODUCTSO_719": {
 			"labels": [
 			]
@@ -144,9 +148,36 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_GDFCTLYCLHSVO_885": {
+			"blis": [
+			],
+			"entities": {
+				"EN_FACTURATD_698": [
+					"AT37_CODIGORR698"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_GDFCT_NFACTURAA_48847",
+				"LBL_GDFCT_NUEVOVQVX_10166"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {
+		"Q_CLIENETT_NF49": {
+			"labels": [
+			]
+		},
 		"Q_CLIETTTT_KW86": {
 			"labels": [
 			]

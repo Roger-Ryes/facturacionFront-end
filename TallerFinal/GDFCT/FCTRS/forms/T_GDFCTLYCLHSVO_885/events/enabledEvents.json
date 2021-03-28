@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONWHVTXTY_192302",
+		"controlName": "VA_VABUTTONWHVTXTY_192302",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "Factura",
+		"eventsType": "visualAttributeEventType"
+	}
+]

@@ -43,6 +43,16 @@
 					"subModuleName": "Facturas",
 					"taskId": "T_GDFCTIMMWFXOE_126",
 					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "GDFCT",
+					"moduleName": "GDFacturacion",
+					"name": "FacturasForm",
+					"subModuleId": "FCTRS",
+					"subModuleName": "Facturas",
+					"taskId": "T_GDFCTLYCLHSVO_885",
+					"type": "Simple form"
 				}
 			]
 		},

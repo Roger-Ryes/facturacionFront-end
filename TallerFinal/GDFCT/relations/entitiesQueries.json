@@ -1,6 +1,9 @@
 {
 	"EN_CLIENTEQJ_451": {
 		"queries": {
+			"Q_CLIENETT_NF49": {
+				"$ref": "../FCTRS/queries/Q_CLIENETT_NF49.json#"
+			},
 			"Q_CLIETTTT_KW86": {
 				"$ref": "../FCTRS/queries/Q_CLIETTTT_KW86.json#"
 			}

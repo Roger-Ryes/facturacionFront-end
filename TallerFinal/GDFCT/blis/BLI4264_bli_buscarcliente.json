@@ -1,0 +1,121 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "7067165"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "Q"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_buscar_cli",
+			"type": "CUSTOM",
+			"value": "Buscar"
+		}
+	],
+	"name": "BLI_BuscarCliente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI4264_bli_buscarcliente",
+	"patternName": "BLI_BuscarCliente",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "3c74b9ab-05f6-41b2-a362-a4862acab880",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 2,
+			"queryName": "select\r\n\t\u0027cedula\u0027 \t= cl_cedula,\r\n   \t\u0027nombre\u0027 \t= cl_nombre,\r\n   \t\u0027apellido\u0027 \t= cl_apellido,\r\n   \t\u0027telefono\u0027 \t= cl_telefono,\r\n   \t\u0027direccion\u0027\t= cl_direccion\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "3c74b9ab-05f6-41b2-a362-a4862acab880",
+			"columns": [
+				{
+					"attributeId": "AT46_CEDULABS451",
+					"entityId": "EN_CLIENTEQJ_451",
+					"format": "",
+					"name": "cedula",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT13_NOMBREOI451",
+					"entityId": "EN_CLIENTEQJ_451",
+					"format": "",
+					"name": "nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT18_APELLIOO451",
+					"entityId": "EN_CLIENTEQJ_451",
+					"format": "",
+					"name": "apellido",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT64_TELEFONN451",
+					"entityId": "EN_CLIENTEQJ_451",
+					"format": "",
+					"name": "telefono",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT20_DIRECCIN451",
+					"entityId": "EN_CLIENTEQJ_451",
+					"format": "",
+					"name": "direccion",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CLIENTEQJ_451",
+			"module": {
+				"moduleId": "GDFCT",
+				"moduleName": "GDFacturacion"
+			},
+			"name": "Cliente"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_cliente_gd",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

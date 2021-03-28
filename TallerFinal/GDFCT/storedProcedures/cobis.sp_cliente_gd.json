@@ -1,5 +1,5 @@
 {
-	"filename": "C:\\Users\\roger_000\\Downloads\\CapacitacionCMC\\Covert_sp_Y_BLI\\SP_a_convertir\\SP_CLIENTE_FACTURACION\\sp_cliente_gd.sql",
+	"filename": "D:\\sps\\sp_cliente_gd.sql",
 	"procedure": {
 		"database": "cobis",
 		"name": "sp_cliente_gd",
@@ -94,6 +94,11 @@
 				"dataType": "char",
 				"direction": "in",
 				"name": "@i_cl_estado"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_buscar_cli"
 			}
 		],
 		"queries": [
@@ -111,17 +116,16 @@
 				"queryText": "select\r\n\t\u0027cedula\u0027 \t= cl_cedula,\r\n   \t\u0027nombre\u0027 \t= cl_nombre,\r\n   \t\u0027apellido\u0027 \t= cl_apellido,\r\n   \t\u0027telefono\u0027 \t= cl_telefono,\r\n   \t\u0027direccion\u0027\t= cl_direccion,\r\n   \t\u0027estado\u0027\t= cl_estado\r\n\tfrom"
 			},
 			{
-				"_idQuery": "1a20a210-0ae9-4c8e-9c99-0963ece15195",
+				"_idQuery": "3c74b9ab-05f6-41b2-a362-a4862acab880",
 				"columns": [
 					"cedula",
 					"nombre",
 					"apellido",
 					"telefono",
-					"direccion",
-					"estado"
+					"direccion"
 				],
-				"editMode": true,
-				"queryText": "select\r\n\t\u0027cedula\u0027 \t= cl_cedula,\r\n   \t\u0027nombre\u0027 \t= cl_nombre,\r\n   \t\u0027apellido\u0027 \t= cl_apellido,\r\n   \t\u0027telefono\u0027 \t= cl_telefono,\r\n   \t\u0027direccion\u0027\t= cl_direccion,\r\n   \t\u0027estado\u0027\t= cl_estado\r\n\tfrom"
+				"editMode": false,
+				"queryText": "select\r\n\t\u0027cedula\u0027 \t= cl_cedula,\r\n   \t\u0027nombre\u0027 \t= cl_nombre,\r\n   \t\u0027apellido\u0027 \t= cl_apellido,\r\n   \t\u0027telefono\u0027 \t= cl_telefono,\r\n   \t\u0027direccion\u0027\t= cl_direccion\r\n\tfrom"
 			},
 			{
 				"_idQuery": "095aeb9e-b06a-4399-b5e4-bd9ace039800",

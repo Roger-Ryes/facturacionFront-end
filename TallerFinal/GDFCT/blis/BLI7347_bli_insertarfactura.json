@@ -1,0 +1,96 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_FACTURATD_698",
+			"module": {
+				"moduleId": "GDFCT",
+				"moduleName": "GDFacturacion"
+			},
+			"name": "Factura"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "7067171"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "Q"
+		},
+		{
+			"attributeId": "AT37_CODIGORR698",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_FACTURATD_698",
+			"format": "",
+			"name": "@i_cf_codigo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "out",
+			"entityId": "",
+			"format": "",
+			"name": "@o_codigo",
+			"type": "CONSTANT",
+			"value": "0"
+		}
+	],
+	"name": "BLI_InsertarFactura",
+	"outputEntity": [
+		{
+			"entityId": "EN_FACTURATD_698",
+			"module": {
+				"moduleId": "GDFCT",
+				"moduleName": "GDFacturacion"
+			},
+			"name": "Factura"
+		}
+	],
+	"outputParameters": [
+		{
+			"attributeId": "AT37_CODIGORR698",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "out",
+			"entityId": "EN_FACTURATD_698",
+			"format": "",
+			"name": "@o_codigo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"patternId": "BLI7347_bli_insertarfactura",
+	"patternName": "BLI_InsertarFactura",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_gd_facturacion",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

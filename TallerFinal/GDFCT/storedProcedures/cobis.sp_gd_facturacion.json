@@ -1,0 +1,149 @@
+{
+	"filename": "D:\\sps\\sp_gd_facturacion.sql",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_gd_facturacion",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_cedula_cliente"
+			},
+			{
+				"dataType": "money",
+				"direction": "in",
+				"name": "@i_total"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_estado"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_cf_codigo"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_pr_codigo"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_cantidad"
+			},
+			{
+				"dataType": "int",
+				"direction": "out",
+				"name": "@o_codigo"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "bb0b09b5-f465-4c57-9716-fda5992f2f30",
+				"columns": [
+					"codigoProducto",
+					"Producto",
+					"Precio",
+					"Cantidad",
+					"SubTotal"
+				],
+				"editMode": false,
+				"queryText": "select\r\n\t    \u0027codigoProducto\u0027 \t= pr_codigo,\r\n\t    \u0027Producto\u0027\t\t\t= pr_nombre,\r\n\t\t\u0027Precio\u0027\t\t \t= pr_precio,\r\n\t\t\u0027Cantidad\u0027 \t\t \t= df_cantidad,\r\n\t\t\u0027SubTotal\u0027\t\t\t= df_subtotal\r\n\tfrom"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_codigo_cf"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "money",
+				"name": "@w_pr_precio"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			},
+			{
+				"dataType": "money",
+				"name": "@w_subtotal"
+			},
+			{
+				"dataType": "money",
+				"name": "@w_total"
+			}
+		]
+	}
+}

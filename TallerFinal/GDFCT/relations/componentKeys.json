@@ -3,6 +3,9 @@
 		"EN_CLIENTEQJ_451": {
 			"name": "Cliente"
 		},
+		"EN_FACTURATD_698": {
+			"name": "Factura"
+		},
 		"EN_PRODUCTSO_719": {
 			"name": "Productos"
 		}
@@ -22,9 +25,15 @@
 			},
 			"T_GDFCTIMMWFXOE_126": {
 				"name": "ListaClientesForm"
+			},
+			"T_GDFCTLYCLHSVO_885": {
+				"name": "FacturasForm"
 			}
 		},
 		"Queries": {
+			"Q_CLIENETT_NF49": {
+				"name": "BuscarClienteQuery"
+			},
 			"Q_CLIETTTT_KW86": {
 				"name": "ClienteQuery"
 			},

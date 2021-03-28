@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_FACTURATD_698",
+			"isContextEntity": null,
+			"moduleId": "GDFCT",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}
