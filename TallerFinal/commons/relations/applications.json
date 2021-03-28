@@ -15,7 +15,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "GDFCT",
 					"moduleName": "GDFacturacion",
 					"name": "ListaProductosForm",
@@ -25,7 +25,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "GDFCT",
 					"moduleName": "GDFacturacion",
 					"name": "ProductoForm",
