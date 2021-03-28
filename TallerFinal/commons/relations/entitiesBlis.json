@@ -37,6 +37,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEQJ_451",
+						"moduleId": "GDFCT",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI4264_bli_buscarcliente",
+			"nameBli": "BLI_BuscarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 					{
 						"entityId": "EN_PRODUCTSO_719",
 						"moduleId": "GDFCT",
@@ -101,6 +118,28 @@
 			},
 			"idBli": "BLI6155_bli_borrarproduucto",
 			"nameBli": "BLI_BorrarProduucto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_FACTURATD_698",
+						"moduleId": "GDFCT",
+						"related": false
+					}
+				],
+				"outputEntity": [
+					{
+						"entityId": "EN_FACTURATD_698",
+						"moduleId": "GDFCT",
+						"related": false
+					}
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI7347_bli_insertarfactura",
+			"nameBli": "BLI_InsertarFactura"
 		},
 		{
 			"entities": {
